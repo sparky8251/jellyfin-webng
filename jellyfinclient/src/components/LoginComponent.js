@@ -8,13 +8,11 @@ import {
 } from 'react-native';
 import {Link} from '../utilities/routing/index';
 
-// This is a dumb component that is common for native and web
-
 export default class LoginComponent extends Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            message: 'Welcome to login component of this app.',
+            message: 'Welcome to Jellyfin-webng',
             usernameMessage: 'Username: ',
             passwordMessage: 'Password: ',
             serverAddress: 'Server address: ',

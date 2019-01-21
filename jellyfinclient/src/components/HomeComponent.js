@@ -13,7 +13,7 @@ export default class TopLevelComponent extends Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            message: 'Welcome to top level component of this app.',
+            message: 'Welcome Jellyfin.',
         };
     }
 

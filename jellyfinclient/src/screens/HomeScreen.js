@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 
-import TopLevelComponent from '../components/TopLevelComponent'
+import HomeComponent from '../components/HomeComponent'
 
 
-class EntryScreen extends Component {
+class HomeScreen extends Component {
     render() {
         return (
-            <TopLevelComponent
+            <HomeComponent
                 message={this.props.sampleReducer.message}
             />
         );
@@ -19,4 +19,4 @@ function mapStateToProps({sampleReducer}) {
 }
 
 
-export default connect(mapStateToProps)(EntryScreen);
+export default connect(mapStateToProps)(HomeScreen);
